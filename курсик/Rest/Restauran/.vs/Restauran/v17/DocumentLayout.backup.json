@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|c:\\users\\rodio\\desktop\\w\\rest\\restauran\\restauran\\cs\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|solutionrelative:restauran\\cs\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|c:\\users\\rodio\\desktop\\w\\rest\\restauran\\restauran\\forms\\ordernew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|solutionrelative:restauran\\forms\\ordernew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|c:\\users\\rodio\\desktop\\w\\rest\\restauran\\restauran\\forms\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|solutionrelative:restauran\\forms\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|c:\\users\\rodio\\desktop\\w\\rest\\restauran\\restauran\\forms\\modermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|solutionrelative:restauran\\forms\\modermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|c:\\users\\rodio\\desktop\\w\\rest\\restauran\\restauran\\methods\\dbwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|solutionrelative:restauran\\methods\\dbwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|c:\\users\\rodio\\desktop\\w\\rest\\restauran\\restauran\\forms\\moderorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|solutionrelative:restauran\\forms\\moderorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|c:\\users\\rodio\\desktop\\w\\rest\\restauran\\restauran\\methods\\filework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|solutionrelative:restauran\\methods\\filework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|c:\\users\\rodio\\desktop\\w\\rest\\restauran\\restauran\\methods\\formwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62B26248-8980-4166-8D34-20D4A62EA160}|Restauran\\Restauran.csproj|solutionrelative:restauran\\methods\\formwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Methods.cs",
+              "DocumentMoniker": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\cs\\Methods.cs",
+              "RelativeDocumentMoniker": "Restauran\\cs\\Methods.cs",
+              "ToolTip": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\cs\\Methods.cs",
+              "RelativeToolTip": "Restauran\\cs\\Methods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T19:04:36.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModerOrders.cs",
+              "DocumentMoniker": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\forms\\ModerOrders.cs",
+              "RelativeDocumentMoniker": "Restauran\\forms\\ModerOrders.cs",
+              "ToolTip": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\forms\\ModerOrders.cs",
+              "RelativeToolTip": "Restauran\\forms\\ModerOrders.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAF8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T19:00:10.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModerMenu.cs",
+              "DocumentMoniker": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\forms\\ModerMenu.cs",
+              "RelativeDocumentMoniker": "Restauran\\forms\\ModerMenu.cs",
+              "ToolTip": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\forms\\ModerMenu.cs",
+              "RelativeToolTip": "Restauran\\forms\\ModerMenu.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:59:49.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\forms\\Menu.cs",
+              "RelativeDocumentMoniker": "Restauran\\forms\\Menu.cs",
+              "ToolTip": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\forms\\Menu.cs",
+              "RelativeToolTip": "Restauran\\forms\\Menu.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:59:33.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderNew.cs",
+              "DocumentMoniker": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\forms\\OrderNew.cs",
+              "RelativeDocumentMoniker": "Restauran\\forms\\OrderNew.cs",
+              "ToolTip": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\forms\\OrderNew.cs",
+              "RelativeToolTip": "Restauran\\forms\\OrderNew.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAHoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:13:51.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormWork.cs",
+              "DocumentMoniker": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\Methods\\FormWork.cs",
+              "RelativeDocumentMoniker": "Restauran\\Methods\\FormWork.cs",
+              "ToolTip": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\Methods\\FormWork.cs",
+              "RelativeToolTip": "Restauran\\Methods\\FormWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:55:52.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBWork.cs",
+              "DocumentMoniker": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\Methods\\DBWork.cs",
+              "RelativeDocumentMoniker": "Restauran\\Methods\\DBWork.cs",
+              "ToolTip": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\Methods\\DBWork.cs",
+              "RelativeToolTip": "Restauran\\Methods\\DBWork.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:55:41.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileWork.cs",
+              "DocumentMoniker": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\Methods\\FileWork.cs",
+              "RelativeDocumentMoniker": "Restauran\\Methods\\FileWork.cs",
+              "ToolTip": "C:\\Users\\rodio\\Desktop\\W\\Rest\\Restauran\\Restauran\\Methods\\FileWork.cs",
+              "RelativeToolTip": "Restauran\\Methods\\FileWork.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAmwIgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:55:19.023Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

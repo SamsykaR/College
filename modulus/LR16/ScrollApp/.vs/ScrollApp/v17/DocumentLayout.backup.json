@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\modulus\\LR16\\ScrollApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{833D82C1-E965-4EFD-A4FB-0D4D37EEF93E}|ScrollApp\\ScrollApp.csproj|F:\\modulus\\LR16\\ScrollApp\\scrollapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{833D82C1-E965-4EFD-A4FB-0D4D37EEF93E}|ScrollApp\\ScrollApp.csproj|solutionrelative:scrollapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{833D82C1-E965-4EFD-A4FB-0D4D37EEF93E}|ScrollApp\\ScrollApp.csproj|f:\\modulus\\lr16\\scrollapp\\scrollapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833D82C1-E965-4EFD-A4FB-0D4D37EEF93E}|ScrollApp\\ScrollApp.csproj|solutionrelative:scrollapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\modulus\\LR16\\ScrollApp\\ScrollApp\\Form1.cs",
+              "RelativeDocumentMoniker": "ScrollApp\\Form1.cs",
+              "ToolTip": "F:\\modulus\\LR16\\ScrollApp\\ScrollApp\\Form1.cs",
+              "RelativeToolTip": "ScrollApp\\Form1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:40:16.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "F:\\modulus\\LR16\\ScrollApp\\ScrollApp\\Form1.cs",
+              "RelativeDocumentMoniker": "ScrollApp\\Form1.cs",
+              "ToolTip": "F:\\modulus\\LR16\\ScrollApp\\ScrollApp\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "ScrollApp\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:32:08.049Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

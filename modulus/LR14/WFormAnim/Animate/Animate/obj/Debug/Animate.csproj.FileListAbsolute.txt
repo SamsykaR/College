@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\works\WFormAnim\Animate\Animate\obj\Debug\Animate.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\works\WFormAnim\Animate\Animate\obj\Debug\Animate.Form1.resources
+C:\Users\Administrator\Desktop\works\WFormAnim\Animate\Animate\obj\Debug\Animate.Properties.Resources.resources
+C:\Users\Administrator\Desktop\works\WFormAnim\Animate\Animate\obj\Debug\Animate.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\works\WFormAnim\Animate\Animate\obj\Debug\Animate.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\works\WFormAnim\Animate\Animate\bin\Debug\Animate.exe.config
+C:\Users\Administrator\Desktop\works\WFormAnim\Animate\Animate\bin\Debug\Animate.exe
+C:\Users\Administrator\Desktop\works\WFormAnim\Animate\Animate\bin\Debug\Animate.pdb
+C:\Users\Administrator\Desktop\works\WFormAnim\Animate\Animate\obj\Debug\Animate.exe
+C:\Users\Administrator\Desktop\works\WFormAnim\Animate\Animate\obj\Debug\Animate.pdb

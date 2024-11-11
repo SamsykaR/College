@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\works\WFormConverter\Converter\Converter\bin\Debug\Converter.exe.config
+C:\Users\Administrator\Desktop\works\WFormConverter\Converter\Converter\bin\Debug\Converter.exe
+C:\Users\Administrator\Desktop\works\WFormConverter\Converter\Converter\bin\Debug\Converter.pdb
+C:\Users\Administrator\Desktop\works\WFormConverter\Converter\Converter\obj\Debug\Converter.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\works\WFormConverter\Converter\Converter\obj\Debug\Converter.Form1.resources
+C:\Users\Administrator\Desktop\works\WFormConverter\Converter\Converter\obj\Debug\Converter.Properties.Resources.resources
+C:\Users\Administrator\Desktop\works\WFormConverter\Converter\Converter\obj\Debug\Converter.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\works\WFormConverter\Converter\Converter\obj\Debug\Converter.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\works\WFormConverter\Converter\Converter\obj\Debug\Converter.exe
+C:\Users\Administrator\Desktop\works\WFormConverter\Converter\Converter\obj\Debug\Converter.pdb

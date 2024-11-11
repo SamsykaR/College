@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1729779265 source:c:\users\312-16\desktop\w\plusarr\cplusplus2\main.cpp
+	<iostream>
+	<array>
+	"digit.h"
+
+1729779094 source:c:\users\312-16\desktop\w\plusarr\cplusplus2\digit.cpp
+	<iostream>
+	<array>
+	<random>
+	<ctime>
+	"digit.h"
+
+1729778325 c:\users\312-16\desktop\w\plusarr\cplusplus2\digit.h
+	<array>
+

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application 2</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="mult">*</string>
+    <string name="div">/</string>
+    <string name="del">Чистка</string>
+</resources>

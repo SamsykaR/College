@@ -1,0 +1,12 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.application.app-mergeDebugResources-29:/values-cs/values-cs.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\312-16\\.gradle\\caches\\8.9\\transforms\\d90b2982390030818d7b069f38fd7af2\\transformed\\core-1.13.1\\res\\values-cs\\values-cs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,356,455,560,667,786",
+  

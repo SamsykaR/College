@@ -1,0 +1,70 @@
+body{
+	background-color: #000;
+	overflow: hidden;
+}
+.bacy{
+	background-image: url("Sprite.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 10%;
+}
+.menu{
+	margin: -1% -1% 0% 70%;
+	padding: 1%;
+	background-color: aqua;
+	display: flex;
+	align-items: stretch;
+	justify-content:space-around;
+	align-content: stretch;
+	border-radius: 0 0 0 20px;
+}
+.menu_item{
+	font-size: 22;
+	height: 55px;
+	width: 100px;
+	align-items: center;
+	transform: rotate(5deg);
+	border-radius: 0 20px 0 20px;
+}
+.ryo{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.card{
+	font-size: 20;
+	height: 30px;
+	background-color: rgb(255, 255, 255);
+	margin-top: -19%;
+	color: black;
+}
+.card_text{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-family: cursive;
+	font-size: 40;
+	color: white;
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+.card_button{
+	font-size: 20;
+	margin-top: -15%;
+}
+
+
+.card_button:hover{
+	transition: 1s;
+	background-color: greenyellow;
+}
+.menu_item:hover{
+	transition: 500ms;
+	-webkit-transition: 500ms;
+	transform: rotate(0);
+	width: 110px;
+}
+.menu_item:not(:hover){
+	transition: 500ms;
+}
+.card_button:not(:hover){
+	transition: 1s;
+}

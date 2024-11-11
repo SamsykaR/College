@@ -1,0 +1,10 @@
+C:\Users\312-16\Desktop\W\WFormMenu\MenuApp\MenuApp\bin\Debug\MenuApp.exe.config
+C:\Users\312-16\Desktop\W\WFormMenu\MenuApp\MenuApp\bin\Debug\MenuApp.exe
+C:\Users\312-16\Desktop\W\WFormMenu\MenuApp\MenuApp\bin\Debug\MenuApp.pdb
+C:\Users\312-16\Desktop\W\WFormMenu\MenuApp\MenuApp\obj\Debug\MenuApp.csproj.AssemblyReference.cache
+C:\Users\312-16\Desktop\W\WFormMenu\MenuApp\MenuApp\obj\Debug\MenuApp.Form1.resources
+C:\Users\312-16\Desktop\W\WFormMenu\MenuApp\MenuApp\obj\Debug\MenuApp.Properties.Resources.resources
+C:\Users\312-16\Desktop\W\WFormMenu\MenuApp\MenuApp\obj\Debug\MenuApp.csproj.GenerateResource.cache
+C:\Users\312-16\Desktop\W\WFormMenu\MenuApp\MenuApp\obj\Debug\MenuApp.csproj.CoreCompileInputs.cache
+C:\Users\312-16\Desktop\W\WFormMenu\MenuApp\MenuApp\obj\Debug\MenuApp.exe
+C:\Users\312-16\Desktop\W\WFormMenu\MenuApp\MenuApp\obj\Debug\MenuApp.pdb

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1729766487 source:c:\users\312-16\desktop\w\plusarr\cplusplus\main.cpp
+	<iostream>
+	<array>
+	<random>
+	<ctime>
+

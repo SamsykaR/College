@@ -1,0 +1,10 @@
+C:\Users\312-15\Desktop\ЛР16\ContactInformation\ContactInformation\bin\Debug\ContactInformation.exe.config
+C:\Users\312-15\Desktop\ЛР16\ContactInformation\ContactInformation\bin\Debug\ContactInformation.exe
+C:\Users\312-15\Desktop\ЛР16\ContactInformation\ContactInformation\bin\Debug\ContactInformation.pdb
+C:\Users\312-15\Desktop\ЛР16\ContactInformation\ContactInformation\obj\Debug\ContactInformation.csproj.AssemblyReference.cache
+C:\Users\312-15\Desktop\ЛР16\ContactInformation\ContactInformation\obj\Debug\ContactInformation.Form1.resources
+C:\Users\312-15\Desktop\ЛР16\ContactInformation\ContactInformation\obj\Debug\ContactInformation.Properties.Resources.resources
+C:\Users\312-15\Desktop\ЛР16\ContactInformation\ContactInformation\obj\Debug\ContactInformation.csproj.GenerateResource.cache
+C:\Users\312-15\Desktop\ЛР16\ContactInformation\ContactInformation\obj\Debug\ContactInformation.csproj.CoreCompileInputs.cache
+C:\Users\312-15\Desktop\ЛР16\ContactInformation\ContactInformation\obj\Debug\ContactInformation.exe
+C:\Users\312-15\Desktop\ЛР16\ContactInformation\ContactInformation\obj\Debug\ContactInformation.pdb

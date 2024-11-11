@@ -1,0 +1,14 @@
+D:\Tester\PR2\cod\bin\Release\net8.0\cod.exe
+D:\Tester\PR2\cod\bin\Release\net8.0\cod.deps.json
+D:\Tester\PR2\cod\bin\Release\net8.0\cod.runtimeconfig.json
+D:\Tester\PR2\cod\bin\Release\net8.0\cod.dll
+D:\Tester\PR2\cod\bin\Release\net8.0\cod.pdb
+D:\Tester\PR2\cod\obj\Release\net8.0\cod.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tester\PR2\cod\obj\Release\net8.0\cod.AssemblyInfoInputs.cache
+D:\Tester\PR2\cod\obj\Release\net8.0\cod.AssemblyInfo.cs
+D:\Tester\PR2\cod\obj\Release\net8.0\cod.csproj.CoreCompileInputs.cache
+D:\Tester\PR2\cod\obj\Release\net8.0\cod.dll
+D:\Tester\PR2\cod\obj\Release\net8.0\refint\cod.dll
+D:\Tester\PR2\cod\obj\Release\net8.0\cod.pdb
+D:\Tester\PR2\cod\obj\Release\net8.0\cod.genruntimeconfig.cache
+D:\Tester\PR2\cod\obj\Release\net8.0\ref\cod.dll

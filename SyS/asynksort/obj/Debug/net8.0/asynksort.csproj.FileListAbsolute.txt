@@ -1,0 +1,14 @@
+C:\Users\312-16\Desktop\W\asynksort\bin\Debug\net8.0\asynksort.exe
+C:\Users\312-16\Desktop\W\asynksort\bin\Debug\net8.0\asynksort.deps.json
+C:\Users\312-16\Desktop\W\asynksort\bin\Debug\net8.0\asynksort.runtimeconfig.json
+C:\Users\312-16\Desktop\W\asynksort\bin\Debug\net8.0\asynksort.dll
+C:\Users\312-16\Desktop\W\asynksort\bin\Debug\net8.0\asynksort.pdb
+C:\Users\312-16\Desktop\W\asynksort\obj\Debug\net8.0\asynksort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\312-16\Desktop\W\asynksort\obj\Debug\net8.0\asynksort.AssemblyInfoInputs.cache
+C:\Users\312-16\Desktop\W\asynksort\obj\Debug\net8.0\asynksort.AssemblyInfo.cs
+C:\Users\312-16\Desktop\W\asynksort\obj\Debug\net8.0\asynksort.csproj.CoreCompileInputs.cache
+C:\Users\312-16\Desktop\W\asynksort\obj\Debug\net8.0\asynksort.dll
+C:\Users\312-16\Desktop\W\asynksort\obj\Debug\net8.0\refint\asynksort.dll
+C:\Users\312-16\Desktop\W\asynksort\obj\Debug\net8.0\asynksort.pdb
+C:\Users\312-16\Desktop\W\asynksort\obj\Debug\net8.0\asynksort.genruntimeconfig.cache
+C:\Users\312-16\Desktop\W\asynksort\obj\Debug\net8.0\ref\asynksort.dll

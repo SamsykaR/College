@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\works\WFormList\TestList\TestList\bin\Debug\TestList.exe.config
+C:\Users\Administrator\Desktop\works\WFormList\TestList\TestList\bin\Debug\TestList.exe
+C:\Users\Administrator\Desktop\works\WFormList\TestList\TestList\bin\Debug\TestList.pdb
+C:\Users\Administrator\Desktop\works\WFormList\TestList\TestList\obj\Debug\TestList.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\works\WFormList\TestList\TestList\obj\Debug\TestList.Form1.resources
+C:\Users\Administrator\Desktop\works\WFormList\TestList\TestList\obj\Debug\TestList.Properties.Resources.resources
+C:\Users\Administrator\Desktop\works\WFormList\TestList\TestList\obj\Debug\TestList.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\works\WFormList\TestList\TestList\obj\Debug\TestList.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\works\WFormList\TestList\TestList\obj\Debug\TestList.exe
+C:\Users\Administrator\Desktop\works\WFormList\TestList\TestList\obj\Debug\TestList.pdb

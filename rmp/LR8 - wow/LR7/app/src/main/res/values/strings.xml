@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lab8.2</string>
+    <string name="welcome_text">Добро пожаловать в приложение "Секретные сообщения"!
+ Используйте это приложение для шифрования секретных сообщений.
+ Для запуска приложения нажмите на кнопку "Пуск".</string>
+    <string name="start">Start</string>
+    <string name="message_hint">Пожалуйста, введите свое секретное сообщение</string>
+    <string name="next">Next</string>
+    <string name="encrypt_text">Вот ваше зашифрованное сообщение:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

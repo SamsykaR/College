@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\modulus\\LR16\\ThreePolosi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4397BA2A-FC04-411D-801D-D7E63B675B9B}|ThreePolosi\\ThreePolosi.csproj|f:\\modulus\\lr16\\threepolosi\\threepolosi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4397BA2A-FC04-411D-801D-D7E63B675B9B}|ThreePolosi\\ThreePolosi.csproj|solutionrelative:threepolosi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4397BA2A-FC04-411D-801D-D7E63B675B9B}|ThreePolosi\\ThreePolosi.csproj|F:\\modulus\\LR16\\ThreePolosi\\threepolosi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4397BA2A-FC04-411D-801D-D7E63B675B9B}|ThreePolosi\\ThreePolosi.csproj|solutionrelative:threepolosi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\modulus\\LR16\\ThreePolosi\\ThreePolosi\\Form1.cs",
+              "RelativeDocumentMoniker": "ThreePolosi\\Form1.cs",
+              "ToolTip": "F:\\modulus\\LR16\\ThreePolosi\\ThreePolosi\\Form1.cs",
+              "RelativeToolTip": "ThreePolosi\\Form1.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:23:52.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "F:\\modulus\\LR16\\ThreePolosi\\ThreePolosi\\Form1.cs",
+              "RelativeDocumentMoniker": "ThreePolosi\\Form1.cs",
+              "ToolTip": "F:\\modulus\\LR16\\ThreePolosi\\ThreePolosi\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "ThreePolosi\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:23:01.51Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
