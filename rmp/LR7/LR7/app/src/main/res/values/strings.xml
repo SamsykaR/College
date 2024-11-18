@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Huba buba</string>
+    <string name="welcome_text">Экран 1\n\n\n\n
+Это моё первое приложение с тремя экранами</string>
+    <string name="start">Начать</string>
+    <string name="welcome_text2">\n@SamsykaR</string>
+    <string name="message_hint">Экран 2 от Родиона</string>
+    <string name="next">Далее</string>
+    <string name="encrypt_text">Экран 3 тоже от Родиона</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

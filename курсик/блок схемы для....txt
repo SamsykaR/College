@@ -1,0 +1,12 @@
+DBFoodSort 1
+DBReturnAllFoods 2
+(проверка на уверенность в удалении (хз))
+добавление в список заказов еды
+FileWriteOrder 3 
+FileWrite 3.1
+
+Linq
+EFCore
+Collections.Generic
+Threading.Tasks
+Windows.Forms

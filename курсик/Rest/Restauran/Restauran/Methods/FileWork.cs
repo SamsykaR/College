@@ -118,10 +118,11 @@ namespace Restauran.Methods
                     foreach (var l in el2)
                     {
                         var el3 = db.Foods.Where(e => e.IDFood == l.IDFood).FirstOrDefault();
-                        if (el3!.NameF!.Split(' ').Length > 1 || el3!.NameF!.Split(' ')[0].Length > 7)
-                            await str.WriteLineAsync($"{el3!.NameF}\t\t{l!.Count}шт *{el3.Cost}={l.Cost:c}");
-                        else
-                            await str.WriteLineAsync($"{el3!.NameF}\t\t\t{l!.Count}шт *{el3.Cost}={l.Cost:c}");
+                        //if (el3!.NameF!.Split(' ').Length > 1 || el3!.NameF!.Split(' ')[0].Length > 7)
+                        //    await str.WriteLineAsync($"{el3!.NameF}\t\t{l!.Count}шт *{el3.Cost}={l.Cost:c}");
+                        //else
+                        //    await str.WriteLineAsync($"{el3!.NameF}\t\t\t{l!.Count}шт *{el3.Cost}={l.Cost:c}");
+			await str.WriteLineAsync($"{el3!.NameF,-30}{l!.Count}шт *{el3.Cost}={l.Cost:c}");
                     }
                     str.WriteLine($"---------------------------");
                     str.WriteLine($"Итог =\t\t\t {el.Cost:c}");
