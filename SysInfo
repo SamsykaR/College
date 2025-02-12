@@ -1,0 +1,68 @@
+#!/bin/bash
+
+report_uptime () {
+		echo " 
+|||System Uptime: $(date +"%x %r %Z")
+		"
+		return
+}
+
+report_disk_space () {
+		echo"
+|||Disk Space Utilization: 
+$(df -h)
+		"
+		return
+}
+
+report_home_space () {
+		if [[ $(id -u) -eq 0 ]]; then
+			echo "
+|||Home Space Utilization (All Users): 
+$(du -sh /home/*)
+			"
+		else
+			echo "
+|||Home Space Utilization ($USER): 
+$(du -sh $HOME)
+			"
+		fi
+		return
+}
+
+report_main_info () {
+		echo " 
+|||Core name: $(uname -a | cut -d' ' -f1)
+|||Conect name: $(uname -a |  cut -d ' ' -f2)
+|||Core version: $(uname -a |  cut -d ' ' -f3)
+|||Reliase date: $(uname -a |  cut -d ' ' -f4,5,6)
+|||Platform: $(uname -a |  cut -d ' ' -f7)
+		"
+		return
+}
+
+while true; do
+
+echo "
+________________________Menu________________________
+|	1. Uptime				   |
+|	2. Disk Space				   |
+|	3. Home Space				   |
+|	4. Main info 				   |
+|	5. Clear output				   |
+|	6. Exit				 	   |
+|__________________________________________________|
+"
+
+read -p "Your choice: " REPLY
+  
+  if [[ $REPLY == 1 ]]; then report_uptime
+  elif [[ $REPLY == 2 ]]; then report_disk_space
+  elif [[ $REPLY == 3 ]]; then report_home_space
+  elif [[ $REPLY == 4 ]]; then report_main_info
+  elif [[ $REPLY == 5 ]]; then clear
+  elif [[ $REPLY == 6 ]]; then exit
+  else
+    echo "Invalid choice. Please try again."
+  fi
+done

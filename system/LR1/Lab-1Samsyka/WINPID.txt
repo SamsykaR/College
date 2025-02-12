@@ -1,0 +1,160 @@
+    80748       0       0      15212  ?              0 08:11:01 C:\Windows\System32\oobe\UserOOBEBroker.exe
+    80616       0       0      15080  ?              0 08:10:45 C:\Windows\System32\RuntimeBroker.exe
+    80464       0       0      14928  ?              0 11:05:19 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    80120       0       0      14584  ?              0 08:10:45 C:\Windows\System32\RuntimeBroker.exe
+    79924       0       0      14388  ?              0   Dec 16 C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.5363_none_7e1ab0d27c839437\TiWorker.exe
+    79704       0       0      14168  ?              0 08:10:44 C:\Windows\System32\RuntimeBroker.exe
+    79580       0       0      14044  ?              0   Dec 16 C:\Windows\System32\fontdrvhost.exe
+    79244       0       0      13708  ?              0   Dec 16 C:\Windows\System32\dwm.exe
+    78884       0       0      13348  ?              0 08:31:15 C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+    78584       0       0      13048  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    78532       0       0      12996  ?              0 10:25:05 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    78512       0       0      12976  ?              0 10:33:29 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+      559       1     559      12916  ?         197609 10:26:58 /usr/bin/mintty
+    78408       0       0      12872  ?              0   Dec 16 C:\Windows\System32\nvvsvc.exe
+    78040       0       0      12504  ?              0 08:10:56 C:\Users\312-17\AppData\Local\Microsoft\OneDrive\OneDrive.exe
+    77944       0       0      12408  ?              0 08:12:42 C:\Windows\System32\svchost.exe
+    77900       0       0      12364  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    77676       0       0      12140  ?              0   Dec 16 C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe
+    77596       0       0      12060  ?              0 08:31:30 C:\Users\312-17\AppData\Local\Microsoft\OneDrive\24.244.1204.0003\FileCoAuth.exe
+    77592       0       0      12056  ?              0 08:10:43 C:\Windows\System32\svchost.exe
+    77552       0       0      12016  ?              0 08:10:42 C:\Windows\System32\sihost.exe
+    77352       0       0      11816  ?              0   Dec 16 C:\Windows\servicing\TrustedInstaller.exe
+    77236       0       0      11700  ?              0 08:10:43 C:\Windows\explorer.exe
+    77192       0       0      11656  ?              0 11:08:23 C:\Windows\System32\SearchProtocolHost.exe
+    77136       0       0      11600  ?              0 08:31:15 C:\Windows\System32\RuntimeBroker.exe
+    77052       0       0      11516  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    76992       0       0      11456  ?              0 08:10:48 C:\Program Files (x86)\NVIDIA Corporation\Update Core\NvBackend.exe
+    76972       0       0      11436  ?              0 08:10:59 C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+    76896       0       0      11360  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    76828       0       0      11292  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    76820       0       0      11284  ?              0 08:10:43 C:\Windows\System32\taskhostw.exe
+    76548       0       0      11012  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    76524       0       0      10988  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    76312       0       0      10776  ?              0 10:25:53 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    75988       0       0      10452  ?              0 08:10:59 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    75980       0       0      10444  ?              0 10:43:14 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    75540       0       0      10004  ?              0   Dec 16 C:\Windows\System32\SecurityHealthService.exe
+    75448       0       0       9912  ?              0   Dec 16 C:\Windows\System32\SgrmBroker.exe
+    75428       0       0       9892  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    75344       0       0       9808  ?              0 10:25:07 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    74952       0       0       9416  ?              0 10:25:03 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    74748       0       0       9212  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+      560     559     560       9032  pty0      197609 10:26:58 /usr/bin/bash
+    74528       0       0       8992  ?              0   Dec 16 C:\Windows\System32\SearchFilterHost.exe
+    74460       0       0       8924  ?              0 08:10:42 C:\Windows\System32\svchost.exe
+    74044       0       0       8508  ?              0 08:11:00 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    73940       0       0       8404  ?              0 08:10:42 C:\Windows\System32\svchost.exe
+    73780       0       0       8244  ?              0   Dec 16 C:\Windows\System32\csrss.exe
+    73628       0       0       8092  ?              0 10:27:47 C:\Program Files\LibreOffice\program\soffice.bin
+    73356       0       0       7820  ?              0   Dec 16 C:\Windows\System32\winlogon.exe
+    73016       0       0       7480  ?              0 08:10:45 C:\Windows\System32\ctfmon.exe
+      618     617     560       7104  pty0      197609 11:11:32 /usr/bin/ps
+    72608       0       0       7072  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    72508       0       0       6972  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    72428       0       0       6892  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    72368       0       0       6832  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    72132       0       0       6596  ?              0 08:11:00 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    71804       0       0       6268  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    71768       0       0       6232  ?              0 08:10:44 C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
+    71748       0       0       6212  ?              0 08:11:00 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    71168       0       0       5632  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    71100       0       0       5564  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    71096       0       0       5560  ?              0 08:11:00 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    71020       0       0       5484  ?              0 10:25:03 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    70972       0       0       5436  ?              0 11:11:33 C:\msys64\usr\bin\bash.exe
+    70856       0       0       5320  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    70720       0       0       5184  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    70684       0       0       5148  ?              0 10:25:07 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    70548       0       0       5012  ?              0 08:10:42 C:\Windows\System32\taskhostw.exe
+    70536       0       0       5000  ?              0   Dec 16 C:\Windows\System32\SearchIndexer.exe
+    70520       0       0       4984  ?              0 08:10:54 C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+    70512       0       0       4976  ?              0 10:32:20 C:\Windows\System32\svchost.exe
+    70444       0       0       4908  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    70428       0       0       4892  ?              0 08:40:52 C:\Windows\System32\MusNotifyIcon.exe
+    70408       0       0       4872  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    70180       0       0       4644  ?              0   Dec 16 C:\Program Files\NVIDIA Corporation\Display\nvxdsync.exe
+    70172       0       0       4636  ?              0   Dec 16 C:\Windows\System32\dllhost.exe
+    70116       0       0       4580  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    70080       0       0       4544  ?              0 11:11:33 C:\msys64\usr\bin\bash.exe
+    70012       0       0       4476  ?              0 08:10:45 C:\Program Files\NVIDIA Corporation\Display\nvtray.exe
+      619     617     560       4444  pty0      197609 11:11:32 /usr/bin/sort
+    69964       0       0       4428  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    69628       0       0       4092  ?              0 10:26:58 C:\Windows\System32\conhost.exe
+    69616       0       0       4080  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    69568       0       0       4032  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+      617     560     560       3900  pty0      197609 11:11:32 /usr/bin/bash
+    69428       0       0       3892  ?              0 08:10:56 C:\Windows\System32\SecurityHealthSystray.exe
+    69420       0       0       3884  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    69396       0       0       3860  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    69344       0       0       3808  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    69280       0       0       3744  ?              0   Dec 16 C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24090.11-0\NisSrv.exe
+    69144       0       0       3608  ?              0   Dec 16 C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24090.11-0\MsMpEng.exe
+    69124       0       0       3588  ?              0   Dec 16 C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe
+    69112       0       0       3576  ?              0   Dec 16 C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24090.11-0\MpDefenderCoreService.exe
+    69056       0       0       3520  ?              0 08:10:47 C:\Program Files\WindowsApps\Microsoft.YourPhone_1.24112.110.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe
+    69016       0       0       3480  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    69008       0       0       3472  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    69000       0       0       3464  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68992       0       0       3456  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68984       0       0       3448  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68976       0       0       3440  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68968       0       0       3432  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68960       0       0       3424  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68952       0       0       3416  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68796       0       0       3260  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68640       0       0       3104  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68596       0       0       3060  ?              0 10:25:47 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    68584       0       0       3048  ?              0 08:11:31 C:\Windows\System32\RuntimeBroker.exe
+    68568       0       0       3032  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68488       0       0       2952  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68480       0       0       2944  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68472       0       0       2936  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68456       0       0       2920  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68408       0       0       2872  ?              0 10:25:07 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    68380       0       0       2844  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68364       0       0       2828  ?              0   Dec 16 C:\Windows\System32\spoolsv.exe
+    68304       0       0       2768  ?              0 08:10:44 C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+    68260       0       0       2724  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68204       0       0       2668  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68184       0       0       2648  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68068       0       0       2532  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    68060       0       0       2524  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67984       0       0       2448  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67940       0       0       2404  ?              0   Dec 16 MemCompression
+    67872       0       0       2336  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67804       0       0       2268  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67772       0       0       2236  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67764       0       0       2228  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67656       0       0       2120  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67620       0       0       2084  ?              0   Dec 16 C:\Windows\System32\AggregatorHost.exe
+    67580       0       0       2044  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67492       0       0       1956  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67428       0       0       1892  ?              0   Dec 16 C:\Program Files (x86)\NVIDIA Corporation\3D Vision\nvSCPAPISvr.exe
+    67420       0       0       1884  ?              0   Dec 16 C:\Windows\System32\nvvsvc.exe
+    67388       0       0       1852  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67352       0       0       1816  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67300       0       0       1764  ?              0 11:08:36 C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    67220       0       0       1684  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67108       0       0       1572  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67084       0       0       1548  ?              0   Dec 16 C:\Windows\System32\MoUsoCoreWorker.exe
+    67052       0       0       1516  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    67020       0       0       1484  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    66940       0       0       1404  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    66932       0       0       1396  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    66912       0       0       1376  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    66756       0       0       1220  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    66748       0       0       1212  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    66700       0       0       1164  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    66648       0       0       1112  ?              0 10:27:47 C:\Program Files\LibreOffice\program\soffice.exe
+    66608       0       0       1072  ?              0   Dec 16 C:\Windows\System32\fontdrvhost.exe
+    66572       0       0       1036  ?              0   Dec 16 C:\Windows\System32\svchost.exe
+    66484       0       0        948  ?              0   Dec 16 C:\Windows\System32\services.exe
+    66412       0       0        876  ?              0   Dec 16 C:\Windows\System32\wininit.exe
+    66228       0       0        692  ?              0   Dec 16 C:\Windows\System32\csrss.exe
+    66160       0       0        624  ?              0   Dec 16 C:\Windows\System32\lsass.exe
+    66104       0       0        568  ?              0   Dec 16 C:\Windows\System32\smss.exe
+    65832       0       0        296  ?              0 08:10:59 C:\Windows\System32\ApplicationFrameHost.exe
+    65708       0       0        172  ?              0   Dec 16 Registry
+    65540       0       0          4  ?              0   Dec 16 System
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
