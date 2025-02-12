@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable restaurant
+id chili_oil
+id fab
+id fragment_container_view
+id parmesan
+id pizza_group
+id radio_diavolo
+id radio_funghi
+id toolbar
+layout activity_main
+layout fragment_order
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string hello_blank_fragment
+style Base.Theme.Application
+style Theme.Application
+xml backup_rules
+xml data_extraction_rules

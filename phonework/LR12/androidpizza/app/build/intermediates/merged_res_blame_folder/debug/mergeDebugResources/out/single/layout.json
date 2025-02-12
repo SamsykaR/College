@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.application.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.application.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.application.app-mergeDebugResources-30:/layout/fragment_order.xml",
+        "source": "com.example.application.app-main-33:/layout/fragment_order.xml"
+    }
+]
