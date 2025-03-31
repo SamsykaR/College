@@ -1,0 +1,4 @@
+module project2
+typeinfo appproject2.qmltypes
+prefer :/project2/
+

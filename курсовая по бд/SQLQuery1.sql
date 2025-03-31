@@ -10,9 +10,9 @@ CREATE TABLE Food (
     FoodID INT PRIMARY KEY,
     Name VARCHAR(100) NOT NULL,
     Description TEXT,
-    Price DECIMAL(10, 2) NOT NULL check(Price < 0),
+    Price DECIMAL(10, 2) NOT NULL check(Price > 0),
     Ingredients TEXT,
-    Weight DECIMAL(10, 2) check(Weight < 0),
+    Weight DECIMAL(10, 2) check(Weight > 0),
     Availability BIT,
     CategoryID INT,
     FOREIGN KEY (CategoryID) REFERENCES Category(CategoryID) ON DELETE CASCADE ON UPDATE CASCADE
@@ -41,7 +41,7 @@ CREATE TABLE Workers (
     FirstName VARCHAR(50) NOT NULL,
     LastName VARCHAR(50) NOT NULL,
     FatherName VARCHAR(50),
-    Phone VARCHAR(15),
+    Phone VARCHAR(15) CHECK (Phone LIKE '[0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]'),
     HireDate DATE NOT NULL,
     Passport VARCHAR(50) NOT NULL,
     AddresID INT,
@@ -53,7 +53,7 @@ CREATE TABLE Workers (
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
     OrderDate DATE DEFAULT(GETDATE()),
-    OrderTime TIME DEFAULT(GeTDATE()),
+    OrderTime TIME DEFAULT(CAST(GETDATE() AS TIME)),
     Statuus VARCHAR(50) NOT NULL,
     PaymentMethod VARCHAR(50) NOT NULL,
     Discount DECIMAL(10, 2) DEFAULT(0),
@@ -85,12 +85,22 @@ CREATE TABLE BookingGuest (
 CREATE TABLE Reservations (
     ReservationID INT PRIMARY KEY,
     TableNumber INT NOT NULL,
-    PreorderAvailable BIT default(1),
+    PreorderAvailable BIT default(0),
     NumberOfPeople INT default(1),
     ReservationDate DATE default(GETDATE()),
     ReservationTime TIME default(GETDATE()),
     Zonee VARCHAR(50) default('Зал'),
     GuestID INT,
-    FOREIGN KEY (GuestID) REFERENCES BookingGuest(GuestID) ON DELETE CASCADE ON UPDATE CASCADE
+	OrderID INT,
+    FOREIGN KEY (GuestID) REFERENCES BookingGuest(GuestID) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)ON DELETE CASCADE ON UPDATE CASCADE,
+		CONSTRAINT CheckPreOrder 
+        CHECK (
+            (PreorderAvailable = 1 AND OrderID IS NOT NULL) OR (PreorderAvailable = 0 AND OrderID IS NULL)
+        ),
 );
+CREATE UNIQUE INDEX PreOrd
+ON Reservations(OrderID) 
+WHERE OrderID IS NOT NULL;
+
 

@@ -1,0 +1,14 @@
+-rootPath
+/home/user/Документы/SamsykaTemp2/LR6/project2
+-cmake-output
+-output-file
+/home/user/Документы/SamsykaTemp2/LR6/build-project2-complect-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appproject2.cmake
+-importPath
+/home/user/Документы/SamsykaTemp2/LR6/build-project2-complect-Debug/project2
+-importPath
+/home/user/Документы/SamsykaTemp2/LR6/build-project2-complect-Debug
+-importPath
+/usr/lib64/qt6/qml
+-qrcFiles
+/home/user/Документы/SamsykaTemp2/LR6/build-project2-complect-Debug/.rcc/qmake_project2.qrc
+/home/user/Документы/SamsykaTemp2/LR6/build-project2-complect-Debug/.rcc/appproject2_raw_qml_0.qrc

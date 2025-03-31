@@ -1,0 +1,8 @@
+File Name                                          | Owner |             Owner Group         | Permision
+fileList.txt                                         user                user                  -rwxrwxrwx.
+LR4.odt                                              user                user                  -rw-r--r--.
+SysInfo                                              user                user                  -rw-r--r--.
+SystemInfoDoc.html                                   user                user                  -rw-r--r--.
+test.txt                                             user                user                  -rwxrwxrwx.
+сайт.png                                         user                user                  -rw-r--r--.
+Текстовый                                   user                user                  -rw-r--r--.

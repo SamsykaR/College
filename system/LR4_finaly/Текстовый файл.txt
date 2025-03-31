@@ -1,0 +1,19 @@
+user@fedora:~/Документы/Samsyka/system/LR4_finaly$ bash SysInfo
+
+______________________Menu______________________
+|       1. Create HTML info page                |
+|       2. All file in directory                |
+|       3. Exit                                 |
+|______________________________________________|
+
+Your choice: 1
+done
+Your choice: 2
+Mask -> <FileForSaveWithDirectory> <PathToFiles>: fileList.txt ~/Загрузки/
+~/Загрузки/ is not directory
+Mask -> <FileForSaveWithDirectory> <PathToFiles>: fileList.txt /home/user/Документы/Samsyka/system/LR4_finaly/
+OK, file permission: 777
+done
+Your choice: 3
+exited
+user@fedora:~/Документы/Samsyka/system/LR4_finaly$

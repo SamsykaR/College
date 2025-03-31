@@ -1,0 +1,51 @@
+
+rodio@DESKTOP-985KG0U MINGW64 ~
+$ bash SysInfo
+
+________________________Menu________________________
+|       1. Uptime                                  |
+|       2. Disk Space                              |
+|       3. Home Space                              |
+|       4. Main info                               |
+|       5. Menu                                    |
+|       6. Clear output                            |
+|       7. Exit                                    |
+|__________________________________________________|
+
+Your choice: 1
+
+|||System Uptime: 03/06/25 08:52:16 PM MSK
+
+Your choice: 2
+SysInfo: line 14: echo
+|||Disk Space Utilization:
+Filesystem      Size  Used Avail Use% Mounted on
+C:/msys64       120G  114G  6.0G  95% /
+E:              466G  430G   36G  93% /e
+F:               15G  685M   14G   5% /f
+Z:              448G  390G   58G  88% /z
+                : No such file or directory
+Your choice: 4
+
+|||Core name: MINGW64_NT-10.0-19045
+|||Conect name: DESKTOP-985KG0U
+|||Core version: 3.5.4-0bc1222b.x86_64
+|||Reliase date: 2024-12-05 09:27 UTC
+|||Platform: x86_64
+
+Your choice: 5
+
+________________________Menu________________________
+|       1. Uptime                                  |
+|       2. Disk Space                              |
+|       3. Home Space                              |
+|       4. Main info                               |
+|       5. Menu                                    |
+|       6. Clear output                            |
+|       7. Exit                                    |
+|__________________________________________________|
+
+Your choice: 7
+
+rodio@DESKTOP-985KG0U MINGW64 ~
+$

@@ -1,0 +1,35 @@
+#!/bin/bash
+STR="a"
+DIR="a"
+
+
+Find_String () {
+	directory="$1"
+	stringl="$2"
+	find "$directory" -type f | while read -r file; do
+        if grep -q "$stringl" "$file"; then
+            echo "File: $file"
+            echo "Size: $(stat -c%s "$file")"
+            echo ""
+        fi
+    done
+		return
+}
+
+
+while true; do
+
+read -p "Mask -> <String> <Path>:" STR DIR
+if [ -z "$STR" ]; then
+    echo "String is null"
+	continue
+fi
+if [ ! -d "$DIR" ]; then
+    echo "$DIR is not directory"
+	continue
+fi
+Find_String "$DIR" "$STR"
+break
+
+done
+

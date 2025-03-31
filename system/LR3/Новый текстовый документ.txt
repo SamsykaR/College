@@ -1,0 +1,9 @@
+$ bash FindStr
+Mask -> <String> <Path>:compiler
+ is not directory
+Mask -> <String> <Path>:compiler Directory/
+File: Directory/Directory — копия/tester.txt
+Size: 10
+
+File: Directory/tester.txt
+Size: 10

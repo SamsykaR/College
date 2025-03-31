@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/lab5true/">
+    <file alias="Main.qml">E:/Flashka/2 семестр/moduls/LR5/lab5true/Main.qml</file>
+  </qresource>
+</RCC>
+

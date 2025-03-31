@@ -1,0 +1,136 @@
+#!/bin/bash
+TITLE="System Information Report For $HOSTNAME"
+CURRENT_TIME=$(date +"%x %r %Z")
+TIME_STAMP="Generated $CURRENT_TIME, by $USER"
+
+#задание 1
+create_html(){
+	echo "
+<html>
+<head>
+	<title>$TITLE</title>
+</head>
+<body>
+	<h1>$TITLE</h1>
+	<p>$TIME_STAMP</p>
+	$(report_uptime)
+	$(report_disk_space)
+	$(report_home_space)
+	$(report_main_info)
+</body>
+</html>
+" > SystemInfoDoc.html
+
+	echo "done, look in browser"
+	firefox SystemInfoDoc.html
+	return
+}
+
+report_uptime(){
+echo "
+<h2>System Uptime</h2>
+<pre>$(date +"%x %r %Z")</pre>
+"
+return
+}
+
+report_disk_space () {
+echo "
+<h2>Disk Space Utilization</h2>
+<pre>$(df -h)</pre>
+"
+return
+}
+
+report_home_space () {
+if [[ $(id -u) -eq 0 ]]; then
+echo "
+<h2>Home Space Utilization (All Users)</h2>
+<pre>$(du -sh /home/*)</pre>
+"
+else
+echo "
+<h2>Home Space Utilization ($USER)</h2>
+<pre>$(du -sh $HOME)</pre>
+"
+fi
+return
+}
+
+report_main_info () {
+	echo "
+<table width="80%" cellpadding="5" cellspacing="1" border="1">
+<caption><h2>Ключевые сведения о системе</h2></caption>
+<tr><td>Core name           </td><td>$(uname -a | cut -d' ' -f1) </td></tr>
+<tr><td>Conect name:       </td><td>$(uname -a |  cut -d ' ' -f2) </td></tr>
+<tr><td>Core version         </td><td>$(uname -a |  cut -d ' ' -f3) </td></tr>
+<tr><td>Reliase date   </td><td>$(uname -a |  cut -d ' ' -f4,5,6) </td></tr>
+<tr><td>Platform</td><td>$(uname -a |  cut -d ' ' -f7) </td></tr>
+</table>
+"
+	return
+}
+
+
+# Задание 2 и 3
+Files_output () {
+while true; do
+
+read -p "Mask -> <FileForSaveWithDirectory> <PathToFiles>: " FIL DIR
+if [ -z "$FIL" ]; then
+    echo "File name is null"
+	continue
+fi
+if [ ! -d "$DIR" ]; then
+    echo "$DIR is not directory"
+	continue
+fi
+
+read -p "OK, file permission: " PER
+touch $FIL
+chmod $PER $FIL
+
+break
+done
+
+	printf "%-50s %-20s %-20s %-10s\n" "File Name " "| Owner |" " Owner Group " "| Permision" > "$FIL"
+	#printf "%-50s %-20s %-20s %-10s\n" "$(ls $DIR)" "$(ls -l | cut -d' ' -f3)" "$(ls -l | cut -d' ' -f4)" "$(ls -l | cut -d' ' -f1)" >> "$FIL"
+	ls -l "$DIR" | tail -n +2 | while read -r line; do
+		permissions=$(echo "$line" | awk '{printf $1}')
+		owner=$(echo "$line" | awk '{printf $3}')
+		group=$(echo "$line" | awk '{printf $4}')
+		filename=$(echo "$line" | awk '{printf $9}')
+		printf "%-50s %-20s %-20s %-10s\n" "$filename "  "  $owner  " " $group " "  $permissions" >> "$FIL"
+	done
+	echo "done"
+	return
+}
+
+
+# Прочее
+menu_output () {
+echo "
+______________________Menu______________________
+|	1. Create HTML info page		|
+|	2. All file in directory		|
+|	3. Exit 				|
+|_______________________________________________|
+"
+return
+}
+
+user_choise(){
+read -p "Your choice: " REPLY
+	case "$REPLY" in
+	1) create_html;;
+	2) Files_output;;
+	3) echo "exited"; exit;;
+	*) echo "Invalid choice. Please try again.";;
+	esac
+	return
+}
+
+menu_output
+while true; do
+	user_choise
+done

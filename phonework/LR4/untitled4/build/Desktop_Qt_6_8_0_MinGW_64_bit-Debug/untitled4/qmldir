@@ -1,0 +1,8 @@
+module untitled4
+typeinfo appuntitled4.qmltypes
+prefer :/qt/qml/untitled4/
+Main 1.0 Main.qml
+Load_Page 1.0 ./pages/Load_Page.qml
+Main_Page 1.0 ./pages/Main_Page.qml
+AddTask_Drawer 1.0 ./pages/AddTask_Drawer.qml
+

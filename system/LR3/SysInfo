@@ -1,0 +1,73 @@
+#!/bin/bash
+
+report_uptime () {
+		echo " 
+|||System Uptime: $(date +"%x %r %Z")
+		"
+		return
+}
+
+report_disk_space () {
+		echo"
+|||Disk Space Utilization: 
+$(df -h)
+		"
+		return
+}
+
+report_home_space () {
+		if [[ $(id -u) -eq 0 ]]; then
+			echo "
+|||Home Space Utilization (All Users): 
+$(du -sh /home/*)
+			"
+		else
+			echo "
+|||Home Space Utilization ($USER): 
+$(du -sh $HOME)
+			"
+		fi
+		return
+}
+
+report_main_info () {
+		echo " 
+|||Core name: $(uname -a | cut -d' ' -f1)
+|||Conect name: $(uname -a |  cut -d ' ' -f2)
+|||Core version: $(uname -a |  cut -d ' ' -f3)
+|||Reliase date: $(uname -a |  cut -d ' ' -f4,5,6)
+|||Platform: $(uname -a |  cut -d ' ' -f7)
+		"
+		return
+}
+menu_output () {
+echo "
+________________________Menu________________________
+|	1. Uptime				   |
+|	2. Disk Space				   |
+|	3. Home Space				   |
+|	4. Main info 				   |
+|	5. Menu 				   |
+|	6. Clear output				   |
+|	7. Exit				 	   |
+|__________________________________________________|
+"
+		return
+}
+
+
+menu_output
+while true; do
+read -p "Your choice: " REPLY
+  
+case "$REPLY" in
+  1) report_uptime;;
+  2) report_disk_space;;
+  3) report_home_space;;
+  4) report_main_info;;
+  5) menu_output;;
+  6) clear;;
+  7) exit;;
+  *) echo "Invalid choice. Please try again.";;
+esac
+done

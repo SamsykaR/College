@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/untitled4/">
+    <file alias="Main.qml">C:/Users/312-07/Desktop/w/untitled4/Main.qml</file>
+    <file alias="./pages/Load_Page.qml">C:/Users/312-07/Desktop/w/untitled4/./pages/Load_Page.qml</file>
+    <file alias="./pages/Main_Page.qml">C:/Users/312-07/Desktop/w/untitled4/./pages/Main_Page.qml</file>
+    <file alias="./pages/AddTask_Drawer.qml">C:/Users/312-07/Desktop/w/untitled4/./pages/AddTask_Drawer.qml</file>
+  </qresource>
+</RCC>
+

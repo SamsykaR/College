@@ -1,0 +1,42 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/user/Документы/SamsykaTemp2/LR6/build-project2-complect-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_49f4b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_49f4b.dir/build.make CMakeFiles/cmTC_49f4b.dir/build
+gmake[1]: вход в каталог «/home/user/Документы/SamsykaTemp2/LR6/build-project2-complect-Debug/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_49f4b.dir/src.cxx.o
+/usr/bin/g++-10 -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG  -o CMakeFiles/cmTC_49f4b.dir/src.cxx.o -c /home/user/Документы/SamsykaTemp2/LR6/build-project2-complect-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_49f4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49f4b.dir/link.txt --verbose=1
+/usr/bin/g++-10 -DQT_QML_DEBUG  CMakeFiles/cmTC_49f4b.dir/src.cxx.o -o cmTC_49f4b 
+ld: CMakeFiles/cmTC_49f4b.dir/src.cxx.o: в функции «main»:
+src.cxx:(.text+0x3e): неопределённая ссылка на «pthread_create»
+ld: src.cxx:(.text+0x4a): неопределённая ссылка на «pthread_detach»
+ld: src.cxx:(.text+0x56): неопределённая ссылка на «pthread_cancel»
+ld: src.cxx:(.text+0x67): неопределённая ссылка на «pthread_join»
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_49f4b.dir/build.make:99: cmTC_49f4b] Ошибка 1
+gmake[1]: выход из каталога «/home/user/Документы/SamsykaTemp2/LR6/build-project2-complect-Debug/CMakeFiles/CMakeTmp»
+gmake: *** [Makefile:127: cmTC_49f4b/fast] Ошибка 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

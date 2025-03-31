@@ -1,0 +1,3 @@
+set(__QT_DEPLOY_TARGET_applab5true_FILE C:/Users/312-16/Desktop/www/lab5true/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/applab5true.exe)
+set(__QT_DEPLOY_TARGET_applab5true_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_applab5true_RUNTIME_DLLS C:/Qt6.8/6.8.0/mingw_64/bin/Qt6Quick.dll;C:/Qt6.8/6.8.0/mingw_64/bin/Qt6QmlMeta.dll;C:/Qt6.8/6.8.0/mingw_64/bin/Qt6QmlWorkerScript.dll;C:/Qt6.8/6.8.0/mingw_64/bin/Qt6QmlModels.dll;C:/Qt6.8/6.8.0/mingw_64/bin/Qt6Qml.dll;C:/Qt6.8/6.8.0/mingw_64/bin/Qt6Network.dll;C:/Qt6.8/6.8.0/mingw_64/bin/Qt6OpenGL.dll;C:/Qt6.8/6.8.0/mingw_64/bin/Qt6Gui.dll;C:/Qt6.8/6.8.0/mingw_64/bin/Qt6Core.dll)

@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0f8c57528bfedee87f92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "project2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-cf5d42ef9f09ce6626a1.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-2cb3245fd046f71eba1f.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-9d5cbfc252fba4df3531.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appproject2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appproject2-Debug-066fc50d77b995e5724a.json",
+					"name" : "appproject2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appproject2_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appproject2_autogen-Debug-ce78ada4777bf3542024.json",
+					"name" : "appproject2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appproject2_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appproject2_automoc_json_extraction-Debug-d7fb6fb9e4b14bae2db8.json",
+					"name" : "appproject2_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appproject2_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appproject2_other_files-Debug-78af63aa120630835684.json",
+					"name" : "appproject2_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appproject2_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appproject2_qmlimportscan-Debug-97af81091a7a268bf630.json",
+					"name" : "appproject2_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appproject2_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appproject2_qmllint-Debug-a1628efed1adb3174753.json",
+					"name" : "appproject2_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appproject2_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appproject2_qmllint_json-Debug-8e8a121d02c8f90daf69.json",
+					"name" : "appproject2_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appproject2_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appproject2_qmltyperegistration-Debug-5579cc9737cd88a63143.json",
+					"name" : "appproject2_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appproject2_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appproject2_tooling-Debug-d36c5d0c4365b1cb9c2a.json",
+					"name" : "appproject2_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/SamsykaTemp2/LR6/build-project2-complect-Debug",
+		"source" : "/home/user/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/SamsykaTemp2/LR6/project2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

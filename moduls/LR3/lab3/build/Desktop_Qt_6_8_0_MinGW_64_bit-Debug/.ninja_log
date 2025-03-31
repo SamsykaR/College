@@ -1,0 +1,17 @@
+# ninja log v6
+13	1101	7622824243382956	lab3_autogen/timestamp	8158a75989871a6
+13	1101	7622824243382956	lab3_autogen/mocs_compilation.cpp	8158a75989871a6
+13	1101	7622824243382956	C:/Users/312-16/Desktop/www/lab3/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/lab3_autogen/timestamp	8158a75989871a6
+13	1101	7622824243382956	C:/Users/312-16/Desktop/www/lab3/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/lab3_autogen/mocs_compilation.cpp	8158a75989871a6
+1118	3985	7622824244622052	CMakeFiles/lab3.dir/widget.cpp.obj	20df1283de95c3d2
+1108	4040	7622824244522306	CMakeFiles/lab3.dir/lab3_autogen/mocs_compilation.cpp.obj	a70e5fb4071d7348
+1112	4047	7622824244562293	CMakeFiles/lab3.dir/main.cpp.obj	5315f34771726b19
+1115	4109	7622824244592068	CMakeFiles/lab3.dir/mainwindow.cpp.obj	1c7b89fdaa59b6d0
+4109	4389	7622824274535009	lab3.exe	f83bae1c23257428
+46	265	7622824940031448	lab3_autogen/timestamp	8158a75989871a6
+46	265	7622824940031448	lab3_autogen/mocs_compilation.cpp	8158a75989871a6
+46	265	7622824940031448	C:/Users/312-16/Desktop/www/lab3/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/lab3_autogen/timestamp	8158a75989871a6
+46	265	7622824940031448	C:/Users/312-16/Desktop/www/lab3/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/lab3_autogen/mocs_compilation.cpp	8158a75989871a6
+266	3292	7622824942220197	CMakeFiles/lab3.dir/main.cpp.obj	5315f34771726b19
+269	3340	7622824942260404	CMakeFiles/lab3.dir/mainwindow.cpp.obj	1c7b89fdaa59b6d0
+3341	3594	7622824972972671	lab3.exe	f83bae1c23257428

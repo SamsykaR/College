@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/lab5true">
+    <file alias="qmldir">E:/Flashka/2 семестр/moduls/LR5/lab5true/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/lab5true/qmldir</file>
+  </qresource>
+</RCC>
+
