@@ -1,0 +1,10 @@
+release/home.o
+release/main.o
+release/myexceptions.o
+release/partners.o
+release/redaction.o
+release/widget.o
+release/moc_home.o
+release/moc_partners.o
+release/moc_redaction.o
+release/moc_widget.o

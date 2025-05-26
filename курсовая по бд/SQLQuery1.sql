@@ -2,15 +2,15 @@
 use Restauran;
 
 CREATE TABLE Category (
-    CategoryID INT PRIMARY KEY,
+    CategoryID INT PRIMARY KEY CLUSTERED IDENTITY(1, 1),
     CategoryName VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE Food (
-    FoodID INT PRIMARY KEY,
+    FoodID INT PRIMARY KEY CLUSTERED IDENTITY(1, 1),
     Name VARCHAR(100) NOT NULL,
     Description TEXT,
-    Price DECIMAL(10, 2) NOT NULL check(Price > 0),
+    Price SMALLMONEY NOT NULL check(Price > 0),
     Ingredients TEXT,
     Weight DECIMAL(10, 2) check(Weight > 0),
     Availability BIT,
@@ -19,8 +19,8 @@ CREATE TABLE Food (
 );
 
 CREATE TABLE Addres (
-    AddresID INT PRIMARY KEY,
-    District VARCHAR(100) NOT NULL,
+    AddresID INT PRIMARY KEY CLUSTERED IDENTITY(1, 1),
+    District VARCHAR(100),
     City VARCHAR(100) NOT NULL,
     Street VARCHAR(100) NOT NULL,
     House VARCHAR(6) NOT NULL,
@@ -28,7 +28,7 @@ CREATE TABLE Addres (
 );
 
 CREATE TABLE WorkDays (
-    WorkDaysID INT PRIMARY KEY,
+    WorkDaysID INT PRIMARY KEY CLUSTERED IDENTITY(1, 1),
     WorkingDays VARCHAR(100) default('пн, вт, ср, чт, пт') NOT NULL,
     StartTime TIME default('8:00') NOT NULL,
     EndTime TIME default('17:00') NOT NULL,
@@ -37,13 +37,14 @@ CREATE TABLE WorkDays (
 );
 
 CREATE TABLE Workers (
-    WorkerID INT PRIMARY KEY,
+    WorkerID INT PRIMARY KEY CLUSTERED IDENTITY(1, 1),
     FirstName VARCHAR(50) NOT NULL,
     LastName VARCHAR(50) NOT NULL,
     FatherName VARCHAR(50),
     Phone VARCHAR(15) CHECK (Phone LIKE '[0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]'),
     HireDate DATE NOT NULL,
     Passport VARCHAR(50) NOT NULL,
+	RatePerHour SMALLMONEY check(RatePerHour > 0),
     AddresID INT,
     WorkDaysID INT,
     FOREIGN KEY (AddresID) REFERENCES Addres(AddresID) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -51,22 +52,22 @@ CREATE TABLE Workers (
 );
 
 CREATE TABLE Orders (
-    OrderID INT PRIMARY KEY,
+    OrderID INT PRIMARY KEY CLUSTERED IDENTITY(1, 1),
     OrderDate DATE DEFAULT(GETDATE()),
     OrderTime TIME DEFAULT(CAST(GETDATE() AS TIME)),
     Statuus VARCHAR(50) NOT NULL,
     PaymentMethod VARCHAR(50) NOT NULL,
     Discount DECIMAL(10, 2) DEFAULT(0),
-    TotalPrice DECIMAL(10, 2), --протестить в сервере
+    TotalPrice SMALLMONEY, --протестить в сервере
     DiscountedPrice AS (TotalPrice - (TotalPrice*Discount/100)),
     WorkerID INT,
     FOREIGN KEY (WorkerID) REFERENCES Workers(WorkerID) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE OrderedFood (
-    OrderedFoodID INT PRIMARY KEY,
-    Quantity INT NOT NULL,
-    Price DECIMAL(10, 2) NOT NULL,
+    OrderedFoodID INT PRIMARY KEY CLUSTERED IDENTITY(1, 1),
+    Quantity TINYINT NOT NULL,
+    Price SMALLMONEY NOT NULL,
     FoodID INT,
     OrderID INT,
     FOREIGN KEY (FoodID) REFERENCES Food(FoodID) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -74,17 +75,17 @@ CREATE TABLE OrderedFood (
 );
 
 CREATE TABLE BookingGuest (
-    GuestID INT PRIMARY KEY,
+    GuestID INT PRIMARY KEY CLUSTERED IDENTITY(1, 1),
     LastName VARCHAR(50) NOT NULL,
     FirstName VARCHAR(50) NOT NULL,
     FatherName VARCHAR(50),
     GuestPhone VARCHAR(15),
-    Age INT NOT NULL
+    Age TINYINT NOT NULL
 );
 
 CREATE TABLE Reservations (
-    ReservationID INT PRIMARY KEY,
-    TableNumber INT NOT NULL,
+    ReservationID INT PRIMARY KEY CLUSTERED IDENTITY(1, 1),
+    TableNumber TINYINT NOT NULL,
     PreorderAvailable BIT default(0),
     NumberOfPeople INT default(1),
     ReservationDate DATE default(GETDATE()),
@@ -102,5 +103,8 @@ CREATE TABLE Reservations (
 CREATE UNIQUE INDEX PreOrd
 ON Reservations(OrderID) 
 WHERE OrderID IS NOT NULL;
+
+CREATE UNIQUE INDEX WorkPasport
+ON Workers(Passport);
 
 

@@ -1,0 +1,10 @@
+debug/home.o
+debug/main.o
+debug/myexceptions.o
+debug/partners.o
+debug/redaction.o
+debug/widget.o
+debug/moc_home.o
+debug/moc_partners.o
+debug/moc_redaction.o
+debug/moc_widget.o
