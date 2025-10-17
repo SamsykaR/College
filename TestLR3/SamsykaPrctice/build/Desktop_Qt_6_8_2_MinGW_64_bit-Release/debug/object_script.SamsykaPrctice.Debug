@@ -1,0 +1,14 @@
+debug/about.o
+debug/global.o
+debug/listing.o
+debug/login.o
+debug/main.o
+debug/redact.o
+debug/regist.o
+debug/widget.o
+debug/moc_about.o
+debug/moc_listing.o
+debug/moc_login.o
+debug/moc_redact.o
+debug/moc_regist.o
+debug/moc_widget.o

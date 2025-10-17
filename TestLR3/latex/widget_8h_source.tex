@@ -1,0 +1,53 @@
+\doxysection{widget.\+h}
+\hypertarget{widget_8h_source}{}\label{widget_8h_source}\index{SamsykaPrctice/widget.h@{SamsykaPrctice/widget.h}}
+\mbox{\hyperlink{widget_8h}{См. документацию.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ WIDGET\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ WIDGET\_H}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <QWidget>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QStackedWidget>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QPushButton>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{login_8h}{login.h}}"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{regist_8h}{regist.h}}"{}}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{about_8h}{about.h}}"{}}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{listing_8h}{listing.h}}"{}}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{redact_8h}{redact.h}}"{}}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classWidget_ace1aa23652eb4425355a81760b39fd37}{Widget}}\ :\ \textcolor{keyword}{public}\ QWidget}
+\DoxyCodeLine{00016\ \{}
+\DoxyCodeLine{00017\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{classWidget_ace1aa23652eb4425355a81760b39fd37}{Widget}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{classWidget_aa24f66bcbaaec6d458b0980e8c8eae65}{\string~Widget}}();}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00026\ \ \ \ \ QVBoxLayout\ *mainLayout;\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00027\ \ \ \ \ QStackedWidget*\ stackedWidget;\ \ }
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \ \ \ \ \mbox{\hyperlink{classlogin}{login}}*\ loginPage;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00030\ \ \ \ \ \mbox{\hyperlink{classregist}{regist}}*\ registPage;\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00031\ \ \ \ \ \mbox{\hyperlink{classabout}{about}}*\ aboutPage;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00032\ \ \ \ \ \mbox{\hyperlink{classlisting}{listing}}*\ listingPage;\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{classredact}{redact}}*\ redactPage;\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \ \ \ \ QPushButton*\ registButton;\ \ \ \ \ \ }
+\DoxyCodeLine{00036\ \ \ \ \ QPushButton*\ closeButton;\ \ \ \ \ \ \ }
+\DoxyCodeLine{00037\ \ \ \ \ QPushButton*\ exitButton;\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00038\ \ \ \ \ QPushButton*\ listingButton;\ \ \ \ \ }
+\DoxyCodeLine{00039\ \ \ \ \ QPushButton*\ aboutButton;\ \ \ \ \ \ \ }
+\DoxyCodeLine{00040\ \ \ \ \ QHBoxLayout*\ buttonsHLayout;\ \ \ \ }
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{void}\ RegistrButtonСlicked();}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{void}\ CloseButtonСlicked();}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{void}\ ExitButtonСlicked();}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ ListingButtonСlicked();}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordtype}{void}\ AboutButtonСlicked();}
+\DoxyCodeLine{00056\ \};}
+\DoxyCodeLine{00057\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ WIDGET\_H}}
+
+\end{DoxyCode}

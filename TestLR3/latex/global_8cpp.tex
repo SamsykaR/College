@@ -1,0 +1,53 @@
+\doxysection{Файл Samsyka\+Prctice/global.cpp}
+\hypertarget{global_8cpp}{}\label{global_8cpp}\index{SamsykaPrctice/global.cpp@{SamsykaPrctice/global.cpp}}
+{\ttfamily \#include $<$QSql\+Database$>$}\newline
+{\ttfamily \#include $<$QSql\+Query$>$}\newline
+{\ttfamily \#include $<$QHost\+Info$>$}\newline
+{\ttfamily \#include $<$QSql\+Error$>$}\newline
+{\ttfamily \#include "{}global.\+h"{}}\newline
+Граф включаемых заголовочных файлов для global.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{global_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Переменные}
+\begin{DoxyCompactItemize}
+\item 
+QString \mbox{\hyperlink{global_8cpp_a2226adeee06c1d073fa2e1c90dc32c1c}{server}} = QHost\+Info\+::local\+Host\+Name() + "{}\textbackslash{}\textbackslash{}SQLEXPRESS"{}
+\item 
+const QString \mbox{\hyperlink{global_8cpp_a441481181388636993721f85cb929b9f}{db\+Name}} = "{}My\+Data\+Base"{}
+\item 
+const QString \mbox{\hyperlink{global_8cpp_a401f8a5f604d09dfaf8d7a69956836f8}{user}} = "{}SA"{}
+\item 
+const QString \mbox{\hyperlink{global_8cpp_a54cf43f9a045c2685427ffd2adccbc6b}{password}} = "{}123"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Переменные}
+\Hypertarget{global_8cpp_a441481181388636993721f85cb929b9f}\index{global.cpp@{global.cpp}!dbName@{dbName}}
+\index{dbName@{dbName}!global.cpp@{global.cpp}}
+\doxysubsubsection{\texorpdfstring{dbName}{dbName}}
+{\footnotesize\ttfamily \label{global_8cpp_a441481181388636993721f85cb929b9f} 
+const QString db\+Name = "{}My\+Data\+Base"{}}
+
+\Hypertarget{global_8cpp_a54cf43f9a045c2685427ffd2adccbc6b}\index{global.cpp@{global.cpp}!password@{password}}
+\index{password@{password}!global.cpp@{global.cpp}}
+\doxysubsubsection{\texorpdfstring{password}{password}}
+{\footnotesize\ttfamily \label{global_8cpp_a54cf43f9a045c2685427ffd2adccbc6b} 
+const QString password = "{}123"{}}
+
+\Hypertarget{global_8cpp_a2226adeee06c1d073fa2e1c90dc32c1c}\index{global.cpp@{global.cpp}!server@{server}}
+\index{server@{server}!global.cpp@{global.cpp}}
+\doxysubsubsection{\texorpdfstring{server}{server}}
+{\footnotesize\ttfamily \label{global_8cpp_a2226adeee06c1d073fa2e1c90dc32c1c} 
+QString server = QHost\+Info\+::local\+Host\+Name() + "{}\textbackslash{}\textbackslash{}SQLEXPRESS"{}}
+
+\Hypertarget{global_8cpp_a401f8a5f604d09dfaf8d7a69956836f8}\index{global.cpp@{global.cpp}!user@{user}}
+\index{user@{user}!global.cpp@{global.cpp}}
+\doxysubsubsection{\texorpdfstring{user}{user}}
+{\footnotesize\ttfamily \label{global_8cpp_a401f8a5f604d09dfaf8d7a69956836f8} 
+const QString user = "{}SA"{}}
+

@@ -1,0 +1,16 @@
+<map id="SamsykaPrctice/redact.h" name="SamsykaPrctice/redact.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="211,5,380,32"/>
+<area shape="rect" id="Node000002" href="$listing_8h.html" title=" " alt="" coords="92,80,259,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,43,198,82,195,77,260,38"/>
+<area shape="rect" id="Node000004" href="$widget_8h.html" title=" " alt="" coords="210,155,381,181"/>
+<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="298,48,298,154,293,154,293,48"/>
+<area shape="rect" id="Node000007" href="$redact_8cpp.html" title=" " alt="" coords="332,80,515,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="332,38,402,77,400,82,330,42"/>
+<area shape="rect" id="Node000003" href="$listing_8cpp.html" title=" " alt="" coords="5,155,186,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="152,119,111,156,107,152,149,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="211,113,276,152,273,156,208,117"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html" title=" " alt="" coords="106,229,280,256"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="267,193,212,231,209,227,264,188"/>
+<area shape="rect" id="Node000006" href="$widget_8cpp.html" title=" " alt="" coords="305,229,489,256"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="327,188,381,227,378,231,324,193"/>
+</map>

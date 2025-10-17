@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>RestauranProject: Файл SamsykaPrctice/listing.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">RestauranProject<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">Программа для работой с меню ресторана</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('listing_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Классы</a>  </div>
+  <div class="headertitle"><div class="title">Файл listing.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;QWidget&gt;</code><br />
+<code>#include &lt;QLabel&gt;</code><br />
+<code>#include &lt;QLineEdit&gt;</code><br />
+<code>#include &lt;QVBoxLayout&gt;</code><br />
+<code>#include &lt;QHBoxLayout&gt;</code><br />
+<code>#include &lt;QScrollArea&gt;</code><br />
+<code>#include &lt;QPushButton&gt;</code><br />
+<code>#include &lt;QCheckBox&gt;</code><br />
+<code>#include &lt;QStackedWidget&gt;</code><br />
+<code>#include &quot;<a class="el" href="redact_8h_source.html">redact.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для listing.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="listing_8h__incl.png" border="0" usemap="#aSamsykaPrctice_2listing_8h" alt=""/></div>
+<map name="aSamsykaPrctice_2listing_8h" id="aSamsykaPrctice_2listing_8h">
+<area shape="rect" title=" " alt="" coords="421,5,587,32"/>
+<area shape="rect" title=" " alt="" coords="5,155,78,181"/>
+<area shape="poly" title=" " alt="" coords="448,35,364,56,270,83,171,117,86,151,84,146,169,112,269,77,362,51,447,30"/>
+<area shape="rect" title=" " alt="" coords="102,155,165,181"/>
+<area shape="poly" title=" " alt="" coords="468,35,337,82,176,150,174,145,335,78,466,30"/>
+<area shape="rect" title=" " alt="" coords="189,155,267,181"/>
+<area shape="poly" title=" " alt="" coords="482,35,266,149,264,145,479,30"/>
+<area shape="rect" title=" " alt="" coords="292,155,394,181"/>
+<area shape="poly" title=" " alt="" coords="492,34,369,146,366,142,489,31"/>
+<area shape="rect" title=" " alt="" coords="598,80,701,107"/>
+<area shape="poly" title=" " alt="" coords="531,30,612,70,609,75,528,35"/>
+<area shape="rect" title=" " alt="" coords="725,80,816,107"/>
+<area shape="poly" title=" " alt="" coords="551,30,711,73,710,78,550,35"/>
+<area shape="rect" title=" " alt="" coords="418,155,518,181"/>
+<area shape="poly" title=" " alt="" coords="504,33,477,140,472,139,499,32"/>
+<area shape="rect" title=" " alt="" coords="841,80,933,107"/>
+<area shape="poly" title=" " alt="" coords="575,30,826,77,825,82,574,35"/>
+<area shape="rect" title=" " alt="" coords="957,80,1078,107"/>
+<area shape="poly" title=" " alt="" coords="588,28,942,77,941,82,587,33"/>
+<area shape="rect" href="redact_8h.html" title=" " alt="" coords="506,80,574,107"/>
+<area shape="poly" title=" " alt="" coords="513,31,530,65,525,67,508,34"/>
+<area shape="poly" title=" " alt="" coords="506,101,333,120,93,157,92,152,332,115,505,95"/>
+<area shape="poly" title=" " alt="" coords="506,102,368,122,180,157,179,152,367,117,505,97"/>
+<area shape="poly" title=" " alt="" coords="506,105,283,157,282,152,505,100"/>
+<area shape="poly" title=" " alt="" coords="507,110,393,151,391,146,505,105"/>
+<area shape="poly" title=" " alt="" coords="530,109,493,145,489,142,526,105"/>
+<area shape="rect" title=" " alt="" coords="957,155,1080,181"/>
+<area shape="poly" title=" " alt="" coords="575,102,586,104,684,121,762,131,942,152,941,157,761,136,683,126,585,109,574,107"/>
+<area shape="rect" title=" " alt="" coords="1104,155,1211,181"/>
+<area shape="poly" title=" " alt="" coords="575,102,586,104,725,124,835,131,947,137,1089,152,1089,157,946,142,835,137,724,129,585,109,574,107"/>
+<area shape="rect" title=" " alt="" coords="1235,155,1352,181"/>
+<area shape="poly" title=" " alt="" coords="575,102,586,104,681,118,761,126,900,133,1041,137,1220,152,1220,157,1041,142,900,138,761,132,680,123,585,109,574,107"/>
+<area shape="rect" title=" " alt="" coords="1375,155,1454,181"/>
+<area shape="poly" title=" " alt="" coords="575,102,586,104,702,120,801,128,971,130,1142,131,1243,138,1360,152,1359,157,1242,143,1142,137,971,135,801,133,701,125,585,109,574,107"/>
+<area shape="rect" title=" " alt="" coords="1479,155,1575,181"/>
+<area shape="poly" title=" " alt="" coords="575,102,586,104,717,121,830,130,929,133,1022,133,1216,133,1330,139,1464,152,1463,157,1330,144,1216,138,1022,138,929,138,829,136,717,127,585,109,574,107"/>
+<area shape="rect" title=" " alt="" coords="1600,155,1694,181"/>
+<area shape="poly" title=" " alt="" coords="575,102,586,104,736,123,863,132,976,135,1082,133,1303,132,1432,137,1584,152,1584,157,1432,143,1303,137,1082,139,976,140,863,138,735,129,585,109,574,107"/>
+<area shape="rect" title=" " alt="" coords="542,155,650,181"/>
+<area shape="poly" title=" " alt="" coords="552,106,579,141,575,144,548,109"/>
+<area shape="rect" title=" " alt="" coords="674,155,817,181"/>
+<area shape="poly" title=" " alt="" coords="576,104,696,147,694,152,574,109"/>
+<area shape="rect" title=" " alt="" coords="841,155,933,181"/>
+<area shape="poly" title=" " alt="" coords="575,101,586,104,705,129,826,151,825,157,704,134,585,109,574,107"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Граф файлов, в которые включается этот файл:</div>
+<div class="dyncontent">
+<div class="center"><img src="listing_8h__dep__incl.png" border="0" usemap="#aSamsykaPrctice_2listing_8hdep" alt=""/></div>
+<map name="aSamsykaPrctice_2listing_8hdep" id="aSamsykaPrctice_2listing_8hdep">
+<area shape="rect" title=" " alt="" coords="112,5,279,32"/>
+<area shape="rect" href="listing_8cpp.html" title=" " alt="" coords="5,80,186,107"/>
+<area shape="poly" title=" " alt="" coords="167,43,115,82,111,77,164,39"/>
+<area shape="rect" href="widget_8h.html" title=" " alt="" coords="210,80,381,107"/>
+<area shape="poly" title=" " alt="" coords="227,39,280,77,276,82,224,43"/>
+<area shape="rect" href="main_8cpp.html" title=" " alt="" coords="106,155,280,181"/>
+<area shape="poly" title=" " alt="" coords="267,118,212,156,209,152,264,114"/>
+<area shape="rect" href="widget_8cpp.html" title=" " alt="" coords="305,155,489,181"/>
+<area shape="poly" title=" " alt="" coords="327,114,381,152,378,156,324,118"/>
+</map>
+</div>
+</div>
+<p><a href="listing_8h_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Классы</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlisting.html">listing</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Класс окна списка блюд  <a href="classlisting.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_a62849ac3a1c1122c9b84a6c5c2742b5.html">SamsykaPrctice</a></li><li class="navelem"><a class="el" href="listing_8h.html">listing.h</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

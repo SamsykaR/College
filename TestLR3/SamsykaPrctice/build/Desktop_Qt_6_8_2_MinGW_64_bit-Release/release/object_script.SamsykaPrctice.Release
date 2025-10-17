@@ -1,0 +1,14 @@
+release/about.o
+release/global.o
+release/listing.o
+release/login.o
+release/main.o
+release/redact.o
+release/regist.o
+release/widget.o
+release/moc_about.o
+release/moc_listing.o
+release/moc_login.o
+release/moc_redact.o
+release/moc_regist.o
+release/moc_widget.o

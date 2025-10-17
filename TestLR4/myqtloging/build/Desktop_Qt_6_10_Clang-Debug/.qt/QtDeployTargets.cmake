@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_myqtloging_FILE /media/develop/DEV/Qt_projects/myqtloging/build/Desktop_Qt_6_10_Clang-Debug/myqtloging)
+set(__QT_DEPLOY_TARGET_myqtloging_TYPE EXECUTABLE)

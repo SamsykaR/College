@@ -1,0 +1,41 @@
+\doxysection{login.\+h}
+\hypertarget{login_8h_source}{}\label{login_8h_source}\index{SamsykaPrctice/login.h@{SamsykaPrctice/login.h}}
+\mbox{\hyperlink{login_8h}{См. документацию.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ LOGIN\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ LOGIN\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QWidget>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QHBoxLayout>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <QVBoxLayout>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <QLabel>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <QPushButton>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <QLineEdit>}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classlogin_a6022810b90136a3cc58f84e88301d818}{login}}\ :\ \textcolor{keyword}{public}\ QWidget}
+\DoxyCodeLine{00016\ \{}
+\DoxyCodeLine{00017\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00018\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{classlogin_a6022810b90136a3cc58f84e88301d818}{login}}(QPushButton*\ btn1,\ QPushButton*\ btn2,\ QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00026\ \ \ \ \ QVBoxLayout*\ mainLayout;\ \ \ \ \ }
+\DoxyCodeLine{00027\ \ \ \ \ QHBoxLayout*\ headerLayout;\ \ \ }
+\DoxyCodeLine{00028\ \ \ \ \ QVBoxLayout*\ centerVLayout;\ \ }
+\DoxyCodeLine{00029\ \ \ \ \ QLabel*\ logotype;\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00030\ \ \ \ \ QLabel*\ headerLabel;\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00031\ \ \ \ \ QLineEdit*\ loginRedact;\ \ \ \ \ \ }
+\DoxyCodeLine{00032\ \ \ \ \ QLineEdit*\ passwordRedact;\ \ \ }
+\DoxyCodeLine{00033\ \ \ \ \ QPushButton*\ signInButton;\ \ \ }
+\DoxyCodeLine{00034\ \ \ \ \ QLabel*\ infoLabel;\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \ \ \ \ QPushButton*\ btn1;\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00037\ \ \ \ \ QPushButton*\ btn2;\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{void}\ loginUser();}
+\DoxyCodeLine{00043\ \};}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ LOGIN\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,45 @@
+\doxysection{listing.\+h}
+\hypertarget{listing_8h_source}{}\label{listing_8h_source}\index{SamsykaPrctice/listing.h@{SamsykaPrctice/listing.h}}
+\mbox{\hyperlink{listing_8h}{См. документацию.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ LISTING\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ LISTING\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QWidget>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QLabel>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <QLineEdit>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <QVBoxLayout>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <QHBoxLayout>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <QScrollArea>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <QPushButton>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <QCheckBox>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <QStackedWidget>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{redact_8h}{redact.h}}"{}}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classlisting_a3e165c1e620cf958c8240a816bba6b73}{listing}}\ :\ \textcolor{keyword}{public}\ QWidget}
+\DoxyCodeLine{00019\ \{}
+\DoxyCodeLine{00020\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00021\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{classlisting_a3e165c1e620cf958c8240a816bba6b73}{listing}}(\mbox{\hyperlink{classredact}{redact}}*\ red,\ QStackedWidget*\ stackedWidget,\ QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classlisting_a01efaee52189b7002fed50f1b7c176fb}{Initial}}();}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00034\ \ \ \ \ QLineEdit*\ textEdit;\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00035\ \ \ \ \ QVBoxLayout*\ mainLayout;\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00036\ \ \ \ \ QHBoxLayout*\ headerLayout;\ \ \ \ \ \ }
+\DoxyCodeLine{00037\ \ \ \ \ QStackedWidget*\ StackedWidget;\ \ }
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{classredact}{redact}}*\ R;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00039\ \ \ \ \ QLabel*\ logotype;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00040\ \ \ \ \ QLabel*\ headerLabel;\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \ \ \ \ QScrollArea*\ scrollArea;\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00043\ \ \ \ \ QWidget*\ contentWidget;\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00044\ \ \ \ \ QVBoxLayout*\ contentLayout;\ \ \ \ \ }
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{void}\ ButtonPress(\textcolor{keywordtype}{int}\ index);}
+\DoxyCodeLine{00049\ \};}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ LISTING\_H}}
+
+\end{DoxyCode}

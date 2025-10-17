@@ -1,0 +1,103 @@
+\doxysection{Класс Global\+Class}
+\hypertarget{classGlobalClass}{}\label{classGlobalClass}\index{GlobalClass@{GlobalClass}}
+
+
+Глобальный класс для управления состоянием приложения и базой данных  
+
+
+
+
+{\ttfamily \#include $<$global.\+h$>$}
+
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGlobalClass_ac12181d8e8e7d72feef3ec0198ecb9d4}{Global\+Class}} ()
+\begin{DoxyCompactList}\small\item\em Конструктор класса \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static QSql\+Database \& \mbox{\hyperlink{classGlobalClass_ab90b4a8dae4848bdb5326943227058fd}{db}} ()
+\begin{DoxyCompactList}\small\item\em Получить подключение к базе данных \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{classGlobalClass_ae8a45707013071a568d0da819ec1460f}{Initial}} ()
+\begin{DoxyCompactList}\small\item\em Инициализация подключения к базе данных \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Статические открытые данные}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{classGlobalClass_a4accda5d0bc2ee825f5226385d29e9eb}{Curent\+Index}} = -\/1
+\begin{DoxyCompactList}\small\item\em Текущий выбранный индекс записи \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{classGlobalClass_a39688438fe81e1693fd83baf3900ae3b}{is\+Autorized}} = false
+\begin{DoxyCompactList}\small\item\em Флаг авторизации пользователя \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Глобальный класс для управления состоянием приложения и базой данных 
+
+Содержит статические методы и поля для работы с БД и управления авторизацией 
+
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{classGlobalClass_ac12181d8e8e7d72feef3ec0198ecb9d4}\index{GlobalClass@{GlobalClass}!GlobalClass@{GlobalClass}}
+\index{GlobalClass@{GlobalClass}!GlobalClass@{GlobalClass}}
+\doxysubsubsection{\texorpdfstring{GlobalClass()}{GlobalClass()}}
+{\footnotesize\ttfamily \label{classGlobalClass_ac12181d8e8e7d72feef3ec0198ecb9d4} 
+Global\+Class\+::\+Global\+Class (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Конструктор класса 
+
+
+
+\doxysubsection{Методы}
+\Hypertarget{classGlobalClass_ab90b4a8dae4848bdb5326943227058fd}\index{GlobalClass@{GlobalClass}!db@{db}}
+\index{db@{db}!GlobalClass@{GlobalClass}}
+\doxysubsubsection{\texorpdfstring{db()}{db()}}
+{\footnotesize\ttfamily \label{classGlobalClass_ab90b4a8dae4848bdb5326943227058fd} 
+QSql\+Database \& Global\+Class\+::db (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Получить подключение к базе данных 
+
+\begin{DoxyReturn}{Возвращает}
+Ссылка на объект базы данных 
+\end{DoxyReturn}
+\Hypertarget{classGlobalClass_ae8a45707013071a568d0da819ec1460f}\index{GlobalClass@{GlobalClass}!Initial@{Initial}}
+\index{Initial@{Initial}!GlobalClass@{GlobalClass}}
+\doxysubsubsection{\texorpdfstring{Initial()}{Initial()}}
+{\footnotesize\ttfamily \label{classGlobalClass_ae8a45707013071a568d0da819ec1460f} 
+void Global\+Class\+::\+Initial (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Инициализация подключения к базе данных 
+
+Создает подключение к SQL Server, проверяет существование БД, при необходимости создает новую базу данных и таблицы 
+
+\doxysubsection{Данные класса}
+\Hypertarget{classGlobalClass_a4accda5d0bc2ee825f5226385d29e9eb}\index{GlobalClass@{GlobalClass}!CurentIndex@{CurentIndex}}
+\index{CurentIndex@{CurentIndex}!GlobalClass@{GlobalClass}}
+\doxysubsubsection{\texorpdfstring{CurentIndex}{CurentIndex}}
+{\footnotesize\ttfamily \label{classGlobalClass_a4accda5d0bc2ee825f5226385d29e9eb} 
+int Global\+Class\+::\+Curent\+Index = -\/1\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Текущий выбранный индекс записи 
+
+\Hypertarget{classGlobalClass_a39688438fe81e1693fd83baf3900ae3b}\index{GlobalClass@{GlobalClass}!isAutorized@{isAutorized}}
+\index{isAutorized@{isAutorized}!GlobalClass@{GlobalClass}}
+\doxysubsubsection{\texorpdfstring{isAutorized}{isAutorized}}
+{\footnotesize\ttfamily \label{classGlobalClass_a39688438fe81e1693fd83baf3900ae3b} 
+bool Global\+Class\+::is\+Autorized = false\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Флаг авторизации пользователя 
+
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+Samsyka\+Prctice/\mbox{\hyperlink{global_8h}{global.\+h}}\item 
+Samsyka\+Prctice/\mbox{\hyperlink{global_8cpp}{global.\+cpp}}\end{DoxyCompactItemize}

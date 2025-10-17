@@ -1,0 +1,15 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,132,78,159"/>
+<area shape="rect" id="Node000001" href="$classWidget.html" title="Главный виджет приложения" alt="" coords="126,5,188,32"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="60,118,124,42,136,31,140,35,128,46,64,121"/>
+<area shape="rect" id="Node000002" href="$classabout.html" title="Класс окна с информацией о программе" alt="" coords="130,56,184,83"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="74,121,133,81,136,85,77,125"/>
+<area shape="rect" id="Node000003" href="$classlisting.html" title="Класс окна списка блюд" alt="" coords="129,107,184,133"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="92,132,128,123,129,129,93,137"/>
+<area shape="rect" id="Node000004" href="$classlogin.html" title="Класс окна авторизации" alt="" coords="133,157,181,184"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="93,154,133,163,132,168,92,159"/>
+<area shape="rect" id="Node000005" href="$classredact.html" title="Класс окна редактирования записей" alt="" coords="128,208,186,235"/>
+<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="77,165,136,205,133,210,74,170"/>
+<area shape="rect" id="Node000006" href="$classregist.html" title="Класс окна регистрации" alt="" coords="130,259,184,285"/>
+<area shape="poly" id="edge6_Node000000_Node000006" title=" " alt="" coords="64,169,128,245,140,256,136,260,124,249,60,173"/>
+</map>

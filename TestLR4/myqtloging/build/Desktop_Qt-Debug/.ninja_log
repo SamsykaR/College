@@ -1,0 +1,9 @@
+# ninja log v6
+2	60	1760345435581938908	myqtloging_autogen/timestamp	ad248d2873b34404
+2	60	1760345435581938908	myqtloging_autogen/mocs_compilation.cpp	ad248d2873b34404
+2	60	1760345435581938908	/home/sam/labs/TestLR4/myqtloging/build/Desktop_Qt-Debug/myqtloging_autogen/timestamp	ad248d2873b34404
+2	60	1760345435581938908	/home/sam/labs/TestLR4/myqtloging/build/Desktop_Qt-Debug/myqtloging_autogen/mocs_compilation.cpp	ad248d2873b34404
+61	80	1760345435597783442	CMakeFiles/myqtloging.dir/myqtloging_autogen/mocs_compilation.cpp.o	4063c51480e34a02
+62	2423	1760345435597938411	CMakeFiles/myqtloging.dir/main.cpp.o	c9a4e406caa15b62
+62	2479	1760345435599407572	CMakeFiles/myqtloging.dir/logging.cpp.o	ae381bc721f49303
+2479	2641	1760345438015863339	myqtloging	973f93c040bfd07d

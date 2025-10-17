@@ -1,0 +1,9 @@
+/media/develop/DEV/Qt_projects/myqtloging/build/Desktop_Qt_6_10_Clang-Debug/CMakeFiles/myqtloging.dir
+/media/develop/DEV/Qt_projects/myqtloging/build/Desktop_Qt_6_10_Clang-Debug/CMakeFiles/edit_cache.dir
+/media/develop/DEV/Qt_projects/myqtloging/build/Desktop_Qt_6_10_Clang-Debug/CMakeFiles/rebuild_cache.dir
+/media/develop/DEV/Qt_projects/myqtloging/build/Desktop_Qt_6_10_Clang-Debug/CMakeFiles/list_install_components.dir
+/media/develop/DEV/Qt_projects/myqtloging/build/Desktop_Qt_6_10_Clang-Debug/CMakeFiles/install.dir
+/media/develop/DEV/Qt_projects/myqtloging/build/Desktop_Qt_6_10_Clang-Debug/CMakeFiles/install/local.dir
+/media/develop/DEV/Qt_projects/myqtloging/build/Desktop_Qt_6_10_Clang-Debug/CMakeFiles/install/strip.dir
+/media/develop/DEV/Qt_projects/myqtloging/build/Desktop_Qt_6_10_Clang-Debug/CMakeFiles/myqtloging_autogen_timestamp_deps.dir
+/media/develop/DEV/Qt_projects/myqtloging/build/Desktop_Qt_6_10_Clang-Debug/CMakeFiles/myqtloging_autogen.dir

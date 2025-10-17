@@ -1,0 +1,20 @@
+2025-10-11 23:35:54.962 CRT Critical: Critical Button
+2025-10-11 23:38:25.308 CRT Critical: Тестируем запись
+2025-10-11 23:56:27.931 CRT Critical: Тестируем запись
+2025-10-11 23:56:27.931 WRN default: QFile::open: File (/media/develop/DEV/Qt_projects/myqtloging/log/error.txt) already open
+2025-10-11 23:56:27.931 DBG default: Не удалось открыть файл.
+2025-10-11 23:56:27.931 DBG : Сообщение уровня отладки
+2025-10-11 23:56:27.931 WRN default: QFile::open: File (/media/develop/DEV/Qt_projects/myqtloging/log/error.txt) already open
+2025-10-11 23:56:27.931 DBG default: Не удалось открыть файл.
+2025-10-11 23:56:27.931 INF : Что-то произошло в системе
+2025-10-11 23:56:27.931 WRN default: QFile::open: File (/media/develop/DEV/Qt_projects/myqtloging/log/error.txt) already open
+2025-10-11 23:56:27.931 DBG default: Не удалось открыть файл.
+2025-10-11 23:56:27.931 WRN : Ошибка в программе
+2025-10-11 23:56:27.931 WRN default: QFile::open: File (/media/develop/DEV/Qt_projects/myqtloging/log/error.txt) already open
+2025-10-11 23:56:27.931 DBG default: Не удалось открыть файл.
+2025-10-11 23:56:27.931 CRT : Фатальная ошибка
+2025-10-11 23:57:43.000 CRT Critical: Тестируем запись
+2025-10-11 23:57:43.000 DBG : Сообщение уровня отладки
+2025-10-11 23:57:43.000 INF : Что-то произошло в системе
+2025-10-11 23:57:43.000 WRN : Ошибка в программе
+2025-10-11 23:57:43.000 CRT : Фатальная ошибка

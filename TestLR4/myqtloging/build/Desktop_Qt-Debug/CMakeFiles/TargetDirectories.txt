@@ -1,0 +1,9 @@
+/home/sam/labs/TestLR4/myqtloging/build/Desktop_Qt-Debug/CMakeFiles/myqtloging.dir
+/home/sam/labs/TestLR4/myqtloging/build/Desktop_Qt-Debug/CMakeFiles/edit_cache.dir
+/home/sam/labs/TestLR4/myqtloging/build/Desktop_Qt-Debug/CMakeFiles/rebuild_cache.dir
+/home/sam/labs/TestLR4/myqtloging/build/Desktop_Qt-Debug/CMakeFiles/list_install_components.dir
+/home/sam/labs/TestLR4/myqtloging/build/Desktop_Qt-Debug/CMakeFiles/install.dir
+/home/sam/labs/TestLR4/myqtloging/build/Desktop_Qt-Debug/CMakeFiles/install/local.dir
+/home/sam/labs/TestLR4/myqtloging/build/Desktop_Qt-Debug/CMakeFiles/install/strip.dir
+/home/sam/labs/TestLR4/myqtloging/build/Desktop_Qt-Debug/CMakeFiles/myqtloging_autogen_timestamp_deps.dir
+/home/sam/labs/TestLR4/myqtloging/build/Desktop_Qt-Debug/CMakeFiles/myqtloging_autogen.dir

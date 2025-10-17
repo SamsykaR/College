@@ -1,0 +1,7 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,31,78,57"/>
+<area shape="rect" id="Node000001" href="$classAnother__win.html" title="Класс окна для ввода данных" alt="" coords="126,5,219,32"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="93,31,125,25,126,30,94,37"/>
+<area shape="rect" id="Node000002" href="$classWidget.html" title="Класс окна для вывода из файла" alt="" coords="141,56,204,83"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="94,51,141,61,140,66,93,57"/>
+</map>

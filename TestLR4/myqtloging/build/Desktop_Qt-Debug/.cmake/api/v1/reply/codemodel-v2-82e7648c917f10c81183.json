@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-cdc635cc27e8541d72c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "myqtloging",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "myqtloging::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-myqtloging-Debug-a13de516ef55af10c64d.json",
+					"name" : "myqtloging",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "myqtloging_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-myqtloging_autogen-Debug-f442894886449b906b5d.json",
+					"name" : "myqtloging_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "myqtloging_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-myqtloging_autogen_timestamp_deps-Debug-4a1e6ddb46e0e23db0e0.json",
+					"name" : "myqtloging_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sam/labs/TestLR4/myqtloging/build/Desktop_Qt-Debug",
+		"source" : "/home/sam/labs/TestLR4/myqtloging"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

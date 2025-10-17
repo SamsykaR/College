@@ -1,0 +1,23 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{\numberline {1}Возможности приложения}{1}{chapter.1}%
+\contentsline {subsection}{\numberline {1.0.1}Что это за приложение}{1}{subsection.1.0.1}%
+\contentsline {subsubsection}{\numberline {1.0.1.1}Возможности приложения\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:}{1}{subsubsection.1.0.1.1}%
+\contentsline {chapter}{\numberline {2}Иерархический список классов}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Иерархия классов}{2}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Алфавитный указатель классов}{3}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Классы}{3}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Список файлов}{4}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Файлы}{4}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Классы}{5}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Класс Another\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}win}{5}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Подробное описание}{6}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Конструктор(ы)}{6}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Another\_win()}{6}{subsubsection.5.1.2.1}%
+\contentsline {section}{\numberline {5.2}Класс Widget}{7}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Подробное описание}{7}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Конструктор(ы)}{8}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}Widget()}{8}{subsubsection.5.2.2.1}%
+\contentsline {chapter}{\numberline {6}Файлы}{9}{chapter.6}%
+\contentsline {section}{\numberline {6.1}another\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}win.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{9}{section.6.1}%
+\contentsline {section}{\numberline {6.2}widget.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{9}{section.6.2}%
